@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Título da página</title>
+		<style>
+			body {
+				background-color: #FFEEBB
+			}
+			h1 {
+				text-align: center;
+				font-family: Verdana, Arial, sans-serif;
+				color: #333333;
+			}
+			p {
+				text-align: center;
+			}
+			img {
+				width: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Codinome Developer</h1>
+		<p>
+			<img src="logo.png" alt="Logo do Codinome Developer">
+			<br>
+			<button type="button" onclick="apresentar()">Apresente-se</button>
+		</p>
+		
+		<script>
+			function apresentar() {
+				var nome = window.prompt("Qual o seu nome?"); 
+				window.alert("Olá "+nome+"!!!")
+			}
+		</script>
+	<body>
+</html>
